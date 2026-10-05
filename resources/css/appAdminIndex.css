@@ -1,0 +1,36 @@
+@import "@fortawesome/fontawesome-free/css/all.css";
+/* @import 'bootstrap/dist/css/bootstrap.min.css'; */
+@tailwind base;
+
+body {
+    font-family: 'Source Sans Pro', Arial, sans-serif;
+}
+
+/* Este archivo será utilizado por todo el apartado del calendario (admin.home) */
+[x-cloak] {
+    display: none;
+}
+
+:root {
+    /* //Estilos para modificar la apariencia del calendario, más especificamente el color de los bordes, texto y botones (Así como sus hovers y select) */
+    --fc-border-color: #F39200;
+    --fc-button-text-color: #fff;
+    --fc-button-bg-color: #E24622;
+    --fc-button-border-color: #E24622;
+    --fc-button-hover-bg-color: #B91116;
+    --fc-button-hover-border-color: #B91116;
+    --fc-button-active-bg-color: #9b060b;
+    --fc-button-active-border-color: #9b060b;
+}
+
+.fc-day-today {
+    /* //Este apartado modifica el color de la celda con la fecha actual. */
+    background: #e64b4b !important;
+    opacity: 0.7 !important;
+    border: none !important;
+
+}
+
+.ml-16 {
+    margin-left: 4rem;
+}

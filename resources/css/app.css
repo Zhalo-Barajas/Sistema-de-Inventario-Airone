@@ -1,0 +1,12 @@
+@import "@fortawesome/fontawesome-free/css/all.css";
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+    font-family: 'Source Sans Pro', Arial, sans-serif;
+}
+//Este archivo (app.css) será utilizado por todo el apartado de landing.
+[x-cloak] {
+    display: none;
+}

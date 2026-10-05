@@ -1,0 +1,25 @@
+.form-control:hover {
+    border-color: #f1a349;
+}
+
+.form-control:focus {
+    border-color: #e46124;
+}
+
+.page-link {
+    color: #f1a349;
+}
+
+.search-title {
+    color: #e46124;
+    /* background-color: #f1a349; */
+    /* font-color: #43ac4b; */
+}
+
+.search-title strong {
+    color: rgb(194, 31, 9) !important;
+}
+
+.custom-file-label::after {
+    content: "Seleccionar" !important;
+}
